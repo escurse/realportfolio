@@ -1,0 +1,12 @@
+#main {
+    margin-left: var(--nav-width);
+}
+
+#main > .stretch-line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.1rem;
+    height: 0.1rem;
+    background-color: #2e2e2f;
+    flex-grow: 1;
+}
