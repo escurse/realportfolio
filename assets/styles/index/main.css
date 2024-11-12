@@ -9,5 +9,39 @@
   background-color: #2e2e2f;
   flex-grow: 1;
 }
+#main .skill-container {
+  box-sizing: border-box;
+}
+#main .skill-container .img-container {
+  margin-bottom: 2rem;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  justify-content: center;
+}
+#main .skill-container .img-container .wrapper {
+  background-color: #ffffff;
+  padding: 1rem 1rem;
+  border: 0.25rem solid #212121;
+  border-radius: 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
+#main .skill-container .img-container .wrapper:hover {
+  transform: scale(105%);
+}
+#main .skill-container .img-container .item {
+  width: 10rem;
+}
+#main .skill-container .img-container .back {
+  width: 13rem;
+}
+#main .skill-container .img-container .back .item {
+  width: 7rem;
+}
 
 /*# sourceMappingURL=main.css.map */
