@@ -90,6 +90,7 @@
     }
 
     #nav {
+      border-left: 0.1rem solid #212121;
       flex-grow: 1;
 
       align-items: center;
@@ -98,8 +99,10 @@
       gap: 5rem;
       justify-content: center;
 
-      .label:has(.check:checked) {
-        opacity: 0;
+      .label {
+        .check {
+          opacity: 0;
+        }
       }
 
       .item {

@@ -2,9 +2,12 @@ const $main = document.getElementById('main');
 const $containers = $main.querySelector(':scope > .container > .nav')
 
 const $nav = document.getElementById('nav');
-const $check = $nav.querySelector(':scope > .label > .check');
+const $skills = $nav.querySelector(':scope > .label > .skills');
 
-$check.onclick = () => {
+$skills.onclick = () => {
+    if ($skills.checked) {
+        $containers.classList.remove('hidden');
+    } else {
+        $containers.classList.add('hidden');
+    }
 }
-
-
