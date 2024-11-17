@@ -101,18 +101,28 @@
 
       .label {
         .check {
-          opacity: 0;
+          display: none;
+        }
+
+        .text {
+          font-size: 3rem;
+          font-weight: 600;
+          text-decoration: none;
+
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+
+          &:active {
+            transform: scale(80%);
+          }
         }
       }
 
       .item {
         margin-top: 1rem;
         width: 10rem;
-      }
-
-      .text {
-        font-size: 3rem;
-        font-weight: 600;
       }
     }
   }

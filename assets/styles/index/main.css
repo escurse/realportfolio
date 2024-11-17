@@ -80,15 +80,23 @@
   justify-content: center;
 }
 #main .container #nav .label .check {
-  opacity: 0;
+  display: none;
+}
+#main .container #nav .label .text {
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+#main .container #nav .label .text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#main .container #nav .label .text:active {
+  transform: scale(80%);
 }
 #main .container #nav .item {
   margin-top: 1rem;
   width: 10rem;
-}
-#main .container #nav .text {
-  font-size: 3rem;
-  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
