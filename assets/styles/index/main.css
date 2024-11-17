@@ -25,23 +25,34 @@
   justify-content: flex-start;
 }
 #main .container .item-containers {
+  width: 85%;
   align-items: stretch;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+#main .container .item-containers.hidden {
+  opacity: 0;
+}
 #main .container .item-containers .item-container {
-  height: 40%;
+  width: 33.3333333333%;
+  height: 100%;
   border-right: 0.1rem solid #000000;
-  border-bottom: 0.1rem solid #000000;
-  align-items: stretch;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 8rem;
   justify-content: center;
 }
 #main .container .item-containers .item-container .item {
-  width: 10rem;
-  height: 10rem;
+  height: 11rem;
+}
+#main .container .item-containers .item-container .text {
+  top: 0;
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
 }
 #main .container .item-containers .front {
   align-items: center;
@@ -53,11 +64,30 @@
   width: 15rem;
 }
 #main .container .item-containers .lang .item {
-  width: 11.5rem;
+  width: 13rem;
 }
-#main .container .stretch {
-  background-color: #f5f5f5;
+#main .container .item-containers .back .item {
+  height: 13rem;
+  width: 13rem;
+}
+#main .container #nav {
   flex-grow: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+}
+#main .container #nav .label:has(.check:checked) {
+  opacity: 0;
+}
+#main .container #nav .item {
+  margin-top: 1rem;
+  width: 10rem;
+}
+#main .container #nav .text {
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
