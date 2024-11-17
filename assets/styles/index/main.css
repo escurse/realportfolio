@@ -24,17 +24,17 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-#main .container .item-containers {
+#main .container .nav {
   width: 85%;
   align-items: stretch;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-#main .container .item-containers.hidden {
-  opacity: 0;
+#main .container .nav.hidden {
+  display: none;
 }
-#main .container .item-containers .item-container {
+#main .container .nav .item-container {
   width: 33.3333333333%;
   height: 100%;
   border-right: 0.1rem solid #000000;
@@ -44,29 +44,29 @@
   gap: 8rem;
   justify-content: center;
 }
-#main .container .item-containers .item-container .item {
+#main .container .nav .item-container .item {
   height: 11rem;
 }
-#main .container .item-containers .item-container .text {
+#main .container .nav .item-container .text {
   top: 0;
   margin-top: 1rem;
   font-size: 3rem;
   font-weight: 600;
   position: absolute;
 }
-#main .container .item-containers .front {
+#main .container .nav .front {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#main .container .item-containers .front .item {
+#main .container .nav .front .item {
   width: 15rem;
 }
-#main .container .item-containers .lang .item {
+#main .container .nav .lang .item {
   width: 13rem;
 }
-#main .container .item-containers .back .item {
+#main .container .nav .back .item {
   height: 13rem;
   width: 13rem;
 }

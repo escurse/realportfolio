@@ -26,7 +26,7 @@
     flex-direction: row;
     justify-content: flex-start;
 
-    .item-containers {
+    .nav {
       width: 85%;
 
       align-items: stretch;
@@ -35,7 +35,7 @@
       justify-content: flex-start;
 
       &.hidden {
-        opacity: 0;
+        display: none;
       }
 
       .item-container {
