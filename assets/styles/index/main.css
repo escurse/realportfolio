@@ -34,6 +34,10 @@
 #main .container .nav.hidden {
   display: none;
 }
+#main .container .nav.introduce {
+  align-items: center;
+  justify-content: center;
+}
 #main .container .nav .item-container {
   width: 33.3333333333%;
   height: 100%;
@@ -86,8 +90,21 @@
   flex-direction: column;
   justify-content: center;
 }
-#main .container .nav .contact-container .containers .item > .github {
+#main .container .nav .contact-container .containers .text {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#main .container .nav .contact-container .containers .text-story {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+#main .container .nav .contact-container .containers .item .github {
   width: 10rem;
+}
+#main .container .nav .contact-container .containers .item .story {
+  margin-top: -1.5rem;
+  width: 13rem;
 }
 #main .container #nav {
   border-left: 0.1rem solid #212121;

@@ -38,6 +38,11 @@
         display: none;
       }
 
+      &.introduce {
+        align-items: center;
+        justify-content: center;
+      }
+
       .item-container {
         width: calc(100% / 3);
         height: 100%;
@@ -106,8 +111,26 @@
           flex-direction: column;
           justify-content: center;
 
-          .item > .github {
-            width: 10rem;
+          .text {
+            font-size: 2.5rem;
+            font-weight: 600;
+          }
+
+          .text-story {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-top: 3rem;
+          }
+
+          .item {
+            .github {
+              width: 10rem;
+            }
+
+            .story {
+              margin-top: -1.5rem;
+              width: 13rem;
+            }
           }
         }
       }

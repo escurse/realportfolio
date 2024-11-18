@@ -17,7 +17,10 @@ $introduce.onclick = () => {
         $contactContainer.classList.add('hidden');
         $skillContainer.classList.add('hidden');
     } else {
-        $introduceContainer.classList.add('hidden');
+        $introduceContainer.classList.remove('hidden');
+        $skillContainer.classList.add('hidden');
+        $projectContainer.classList.add('hidden');
+        $contactContainer.classList.add('hidden');
     }
 }
 $skills.onclick = () => {
@@ -27,7 +30,10 @@ $skills.onclick = () => {
         $projectContainer.classList.add('hidden');
         $contactContainer.classList.add('hidden');
     } else {
-        $skillContainer.classList.add('hidden');
+        $skillContainer.classList.remove('hidden');
+        $introduceContainer.classList.add('hidden');
+        $projectContainer.classList.add('hidden');
+        $contactContainer.classList.add('hidden');
     }
 }
 $project.onclick = () => {
@@ -37,7 +43,10 @@ $project.onclick = () => {
         $skillContainer.classList.add('hidden');
         $contactContainer.classList.add('hidden');
     } else {
-        $projectContainer.classList.add('hidden');
+        $projectContainer.classList.remove('hidden');
+        $introduceContainer.classList.add('hidden');
+        $skillContainer.classList.add('hidden');
+        $contactContainer.classList.add('hidden');
     }
 }
 $contact.onclick = () => {
@@ -47,6 +56,9 @@ $contact.onclick = () => {
         $skillContainer.classList.add('hidden');
         $projectContainer.classList.add('hidden');
     } else {
-        $contactContainer.classList.add('hidden');
+        $contactContainer.classList.remove('hidden');
+        $introduceContainer.classList.add('hidden');
+        $skillContainer.classList.add('hidden');
+        $projectContainer.classList.add('hidden');
     }
 }
