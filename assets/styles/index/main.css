@@ -127,9 +127,6 @@
   cursor: pointer;
   text-decoration: underline;
 }
-#main .container #nav .label .text:active {
-  transform: scale(80%);
-}
 #main .container #nav .item {
   margin-top: 1rem;
   width: 10rem;
