@@ -87,6 +87,30 @@
           width: 13rem;
         }
       }
+
+      .contact-container {
+        width: 50%;
+        height: 100%;
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .containers {
+          width: 100%;
+          height: calc(100% / 3);
+
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .item > .github {
+            width: 10rem;
+          }
+        }
+      }
     }
 
     #nav {
