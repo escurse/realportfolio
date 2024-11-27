@@ -1,10 +1,21 @@
 const $main = document.getElementById('main');
+const $navItems = Array.from($main.querySelectorAll(':scope > .container > .nav'));
 const $introduceContainer = $main.querySelector(':scope > .container > .introduce')
 const $skillContainer = $main.querySelector(':scope > .container > .skills')
 const $projectContainer = $main.querySelector(':scope > .container > .project')
 const $contactContainer = $main.querySelector(':scope > .container > .contact')
-
 const $nav = document.getElementById('nav');
+const $navs = Array.from($nav.querySelectorAll(':scope > .label > .text'));
+
+// $navs.forEach(($items) => {
+//     $items.onclick = () => {
+//         $navItems.forEach(($item) => {
+//             $item.classList.add('hidden');
+//         });
+//         $item.classList.remove('hidden');
+//     }
+// })
+
 const $introduce = $nav.querySelector(':scope > .label > .introduce');
 const $skills = $nav.querySelector(':scope > .label > .skills');
 const $project = $nav.querySelector(':scope > .label > .project');

@@ -7,15 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>박재형의 포트폴리오</title>
     <link rel="shortcut icon" href="assets/images/포트폴리오%20아이콘.png">
-    <link rel="stylesheet" href="assets/styles/index.css" type="text/css">
+    <link rel="stylesheet" href="assets/styles/common.css" type="text/css">
     <script defer src="assets/scripts/index.js" type="text/javascript"></script>
 </head>
 <body>
 <main id="main">
     <div class="container">
         <div class="introduce nav">
+            <div class="introduce-container" data-id="introduce">
+                <div class="small-container">
+                    <div class="h1">안녕하세요</div>
+                    <div class="h1">백엔드 개발자를 꿈꾸고 있는</div>
+                    <div class="h1">박재형이라고 합니다.</div>
+                </div>
+                <div class="small-container"></div>
+            </div>
+            <div class="introduce-container"></div>
         </div>
-        <div class="skills nav hidden">
+        <div class="skills nav hidden" data-id="skills">
             <div class="front item-container">
                 <div class="text">프론트 엔드</div>
                 <img class="item" src="./assets/images/frontend.png" alt="">
@@ -31,10 +40,13 @@
                 <img class="item" src="./assets/images/스프링%20부트.png" alt="">
             </div>
         </div>
-        <div class="project nav hidden">
-
+        <div class="project nav hidden" data-id="project">
+            <div class="project-container">
+                <div class="h1">JGV</div>
+            </div>
+            <div class="project-container"></div>
         </div>
-        <div class="contact nav hidden">
+        <div class="contact nav hidden" data-id="contact">
             <div class="contact-container">
                 <div class="containers">
                     <div class="text">이름: 박재형</div>
@@ -43,7 +55,7 @@
                     <div class="text">생년월일: 1998.10.09</div>
                 </div>
                 <div class="containers">
-                    <div class="text">깃허브</div>
+                    <a href="https://github.com/escurse/" class="text" target="_blank">깃허브</a>
                     <a href="https://github.com/escurse/" class="item" target="_blank">
                         <img src="./assets/images/github.png" alt="깃허브" class="github">
                     </a>
@@ -57,7 +69,7 @@
                     <div class="text">연락처: 010-9273-1967</div>
                 </div>
                 <div class="containers">
-                    <div class="text-story">티스토리</div>
+                    <a href="https://escass.tistory.com/" class="text-story" target="_blank">티스토리</a>
                     <a href="https://escass.tistory.com/" class="item" target="_blank">
                         <img src="./assets/images/티스토리.png" alt="티스토리" class="story">
                     </a>
@@ -68,19 +80,19 @@
             <img class="item" src="./assets/images/박재형.jpg" alt="얼굴 사진">
             <label class="label">
                 <input type="checkbox" class="check introduce">
-                <span class="text">Introduce</span>
+                <span class="text" data-id="introduce">Introduce</span>
             </label>
             <label class="label">
                 <input type="checkbox" class="check skills">
-                <span class="text">Skills</span>
+                <span class="text" data-id="skills">Skills</span>
             </label>
             <label class="label">
                 <input type="checkbox" class="check project">
-                <span class="text">Project</span>
+                <span class="text" data-id="project">Project</span>
             </label>
             <label class="label">
                 <input type="checkbox" class="check contact">
-                <span class="text">Contact</span>
+                <span class="text" data-id="contact">Contact</span>
             </label>
         </span>
     </div>
