@@ -94,21 +94,101 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   justify-content: center;
 }
-#main > .container > .nav > .front > .item {
-  width: 25rem;
-  height: 15rem;
+#main > .container > .nav > .front > .text {
+  position: relative;
 }
-#main > .container > .nav > .lang > .item {
+#main > .container > .nav > .front > .container {
+  height: 15rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main > .container > .nav > .front > .container > .progress-bar {
+  margin-top: 0.5rem;
+}
+#main > .container > .nav > .front > .container > .progress-bar > .progress {
+  -webkit-appearance: none;
+  border: 0.1rem solid #212121;
+  border-radius: 999rem;
+  overflow: hidden;
+}
+#main > .container > .nav > .front > .container ::-webkit-progress-bar {
+  background-color: #212121;
+}
+#main > .container > .nav > .front > .container ::-webkit-progress-value {
+  background-color: #f5f5f5;
+}
+#main > .container > .nav > .front > .container > .text {
+  position: relative;
+  font-weight: 400;
+  font-size: 1rem;
+}
+#main > .container > .nav > .front > .container > .item {
+  width: 10rem;
+  height: 10rem;
+}
+#main > .container > .nav > .front > .container > .css {
+  width: 7rem;
+}
+#main > .container > .nav > .lang > .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main > .container > .nav > .lang > .container > .progress-bar {
+  margin-top: 0.5rem;
+}
+#main > .container > .nav > .lang > .container > .progress-bar > .progress {
+  -webkit-appearance: none;
+  border: 0.1rem solid #212121;
+  border-radius: 999rem;
+  overflow: hidden;
+}
+#main > .container > .nav > .lang > .container ::-webkit-progress-bar {
+  background-color: #212121;
+}
+#main > .container > .nav > .lang > .container ::-webkit-progress-value {
+  background-color: #f5f5f5;
+}
+#main > .container > .nav > .lang > .container > .item {
   width: 13rem;
 }
 #main > .container > .nav > .back {
   border: none;
 }
-#main > .container > .nav > .back > .item {
+#main > .container > .nav > .back > .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main > .container > .nav > .back > .container > .progress-bar {
+  margin-top: 0.5rem;
+}
+#main > .container > .nav > .back > .container > .progress-bar > .progress {
+  -webkit-appearance: none;
+  border: 0.1rem solid #212121;
+  border-radius: 999rem;
+  overflow: hidden;
+}
+#main > .container > .nav > .back > .container ::-webkit-progress-bar {
+  background-color: #212121;
+}
+#main > .container > .nav > .back > .container ::-webkit-progress-value {
+  background-color: #f5f5f5;
+}
+#main > .container > .nav > .back > .container > .item {
   height: 13rem;
   width: 13rem;
+}
+#main > .container > .nav > .back > .container > .spring {
+  width: 23rem;
 }
 #main > .container > .nav > .project-container {
   width: 50%;
