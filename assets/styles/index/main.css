@@ -70,6 +70,31 @@
   justify-content: center;
   gap: 0.5rem;
 }
+#main > .container > .nav.introduce > .introduce-container > .career-container {
+  margin-top: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+  justify-content: center;
+}
+#main > .container > .nav.introduce > .introduce-container > .career-container > .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+#main > .container > .nav.introduce > .introduce-container > .career-container > .container .introduce {
+  font-size: 2rem;
+}
+#main > .container > .nav.introduce > .introduce-container > .career-container > .container > .item {
+  width: 10rem;
+  height: 10rem;
+}
+#main > .container > .nav.introduce > .introduce-container > .career-container > .container > .item.korea {
+  width: 30rem;
+}
 #main > .container > .nav > .item-container {
   width: 33.3333333333%;
   height: 100%;

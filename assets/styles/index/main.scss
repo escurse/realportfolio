@@ -80,6 +80,37 @@
               }
             }
           }
+
+          > .career-container {
+            margin-top: 2rem;
+
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 20rem;
+            justify-content: center;
+
+            > .container {
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              justify-content: center;
+
+              .introduce {
+                font-size: 2rem;
+              }
+
+              > .item {
+                width: 10rem;
+                height: 10rem;
+
+                &.korea {
+                  width: 30rem;
+                }
+              }
+            }
+          }
         }
       }
 
