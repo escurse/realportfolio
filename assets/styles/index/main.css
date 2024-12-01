@@ -70,6 +70,18 @@
   justify-content: center;
   gap: 0.5rem;
 }
+#main > .container > .nav.introduce > .introduce-container:nth-child(1) > .small-container > .qualification-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#main > .container > .nav.introduce > .introduce-container:nth-child(1) > .small-container > .qualification-container .item {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+#main > .container > .nav.introduce > .introduce-container:nth-child(1) > .small-container > .qualification-container .item:nth-child(1) {
+  margin-top: 2rem;
+}
 #main > .container > .nav.introduce > .introduce-container > .career-container {
   margin-top: 2rem;
   align-items: center;
