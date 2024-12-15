@@ -273,7 +273,7 @@
 #main > .container > .nav > .project-container > .main > .header > .jgv {
   width: 100%;
   height: 28.5rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 #main > .container > .nav > .project-container > .main > .body {
   width: 100%;
