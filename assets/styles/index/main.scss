@@ -287,11 +287,150 @@
       }
 
       > .project-container {
-        width: 50%;
+        width: 100%;
         height: 100%;
+        border-right: 0.1rem solid #212121;
 
-        &:nth-child(1) {
-          border-right: 0.1rem solid #212121;
+        display: flex;
+        flex-direction: column;
+
+        &:nth-last-child(1) {
+          border: none;
+        }
+
+        > .head {
+          height: 6rem;
+          border-bottom: 0.1rem solid #212121;
+          line-height: 1;
+
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          > .h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: center;
+
+            > .name {
+              font-size: 5rem;
+              font-weight: 700;
+              color: #FF2D20;
+            }
+          }
+        }
+
+        > .main {
+          width: 100%;
+          height: calc(100% - 6rem);
+
+          display: flex;
+          flex-direction: column;
+
+          > .header {
+            height: 28.5rem;
+            border-bottom: 0.1rem solid #212121;
+
+            > .jgv {
+              width: 100%;
+              height: 28.5rem;
+              object-fit: cover;
+            }
+          }
+
+          > .body {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: row;
+
+            > .container {
+              width: 100%;
+              height: 100%;
+              border-right: 0.1rem solid #212121;
+
+              display: flex;
+              flex-direction: column;
+
+              &:nth-child(1) {
+                padding-top: 1.5rem;
+
+                gap: 1.5rem;
+              }
+
+              &:nth-last-child(1) {
+                border: none;
+              }
+
+              > .github {
+                color: #0969da;
+              }
+
+              > .header {
+                height: 3rem;
+                border-bottom: 0.1rem solid #212121;
+
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                > .h1 {
+                  font-size: 1.5rem;
+                  font-weight: 700;
+                }
+              }
+
+              > .theater-container {
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: row;
+
+                > .theater {
+                  width: 100%;
+                  height: 100%;
+                  border-right: 0.1rem solid #212121;
+
+                  display: flex;
+                  flex-direction: column;
+
+                  &:nth-last-child(1) {
+                    border: none;
+                  }
+
+                  > .header {
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    > .info {
+                      padding-top: 1rem;
+                    }
+                  }
+
+                  > .info {
+
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                  }
+                }
+              }
+            }
+          }
         }
       }
 
